@@ -4,6 +4,7 @@ from datetime import datetime
 
 
 print("Welcome to expense tracker\n")
+print("You can seamlessly track your expenses now!\n")
 
 conn=setting_up_mysql_python.get_connection()
 Mycursor=conn.cursor()
