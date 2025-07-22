@@ -46,7 +46,7 @@ def add_expense(category_id,user_id,amount,expense_date,description):
      
      Mycursor.execute(query,(category_id,user_id,amount,expense_date,description))
 
-     print("Expense added successfully!")
+     print("Expense added successfully!!")
      conn.commit()
      Mycursor.close()
      conn.close()

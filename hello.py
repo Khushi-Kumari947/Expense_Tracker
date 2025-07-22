@@ -8,7 +8,7 @@ query="""drop database Expense_Tracker"""
 
 my.execute(query)
 conn.commit()
-print("droped")
+print("Database droped")
 
 my.close()
 conn.close()

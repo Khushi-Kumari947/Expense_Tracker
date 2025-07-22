@@ -82,7 +82,7 @@ def main_app():
         if st.button("Add Category"):
             try:
                 features.Add_categories(cat_input)
-                st.success("Category(ies) added!")
+                st.success("Category(ies) added!!")
             except Exception as e:
                 st.error(f"Error: {e}")
 

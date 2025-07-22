@@ -52,7 +52,7 @@ def show_expense_Total_month_wise(user_id):
     data=Mycursor.fetchall()
 
     if not data:
-        print("User not found!")
+        print("User not found in the record!")
         return []
     
     name=data[0][0]
